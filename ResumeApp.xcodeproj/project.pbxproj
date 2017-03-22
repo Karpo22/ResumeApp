@@ -32,6 +32,7 @@
 		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
 		AD6E768B972AED5157F2507B /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AAF38BAEB3331C88466FEDBC /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
 		C9EC11831E8317E1005701EC /* MainApplication.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C9EC11811E8317E1005701EC /* MainApplication.cpp */; };
+		C9EC11861E833401005701EC /* TabBase.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C9EC11841E833401005701EC /* TabBase.cpp */; };
 		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
 		EB1E2840776F84AC1AADC83E /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3286DF9230840824B0DACDF1 /* QtWidgets.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,8 @@
 		AAF38BAEB3331C88466FEDBC /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /usr/local/Cellar/qt5/5.8.0_1/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
 		C9EC11811E8317E1005701EC /* MainApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainApplication.cpp; sourceTree = "<group>"; };
 		C9EC11821E8317E1005701EC /* MainApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainApplication.h; sourceTree = "<group>"; };
+		C9EC11841E833401005701EC /* TabBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TabBase.cpp; sourceTree = "<group>"; };
+		C9EC11851E833401005701EC /* TabBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBase.h; sourceTree = "<group>"; };
 		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		F7E9A99A162043C44DA71780 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/karp/ResumeApp/.qmake.stash; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -109,9 +112,11 @@
 			children = (
 				124613067437C2FEE9AE294D /* main.cpp */,
 				86B41ACD13E340D10BBD325C /* MainWindow.cpp */,
+				345AA0E661D70D2638035491 /* MainWindow.h */,
+				C9EC11841E833401005701EC /* TabBase.cpp */,
+				C9EC11851E833401005701EC /* TabBase.h */,
 				C9EC11811E8317E1005701EC /* MainApplication.cpp */,
 				C9EC11821E8317E1005701EC /* MainApplication.h */,
-				345AA0E661D70D2638035491 /* MainWindow.h */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				9FB6A0E7EDA7EF43B130E448 /* main.cpp in Compile Sources */,
 				24136D4B0646F115971142E4 /* MainWindow.cpp in Compile Sources */,
+				C9EC11861E833401005701EC /* TabBase.cpp in Compile Sources */,
 				657CA5579AF5894330033513 /* moc_mainwindow.cpp in Compile Sources */,
 				C9EC11831E8317E1005701EC /* MainApplication.cpp in Compile Sources */,
 				AD6E768B972AED5157F2507B /* dummy.cpp in Compile Sources */,

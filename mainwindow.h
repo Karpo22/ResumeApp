@@ -19,8 +19,12 @@ public:
     MainWindow();
     
 private:
-    QMenuBar *menuBar;
-    QMenu    *mFileMenu;
+    QMenuBar    *menuBar;
+    QMenu       *mFileMenu;
+    
+    QTabWidget  *mTabList;
+    
+    
 
 };
 

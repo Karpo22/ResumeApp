@@ -18,7 +18,7 @@ MainApplication::MainApplication(int & argc, char *argv[])
 
 int MainApplication::run()
 {
-    mMainWindow.show();
+    mMainWindow.showMaximized();
     int retVal = this->exec();
     return retVal;
 }
