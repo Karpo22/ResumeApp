@@ -444,4 +444,6 @@ dependencies: /Users/karp/ResumeApp/MainApplication.cpp MainApplication.h \
   /usr/local/Cellar/qt5/5.8.0_1/lib/QtWidgets.framework/Headers/qwhatsthis.h \
   /usr/local/Cellar/qt5/5.8.0_1/lib/QtWidgets.framework/Headers/qwidgetaction.h \
   /usr/local/Cellar/qt5/5.8.0_1/lib/QtWidgets.framework/Headers/qwizard.h \
-  /usr/local/Cellar/qt5/5.8.0_1/lib/QtWidgets.framework/Headers/qtwidgetsversion.h
+  /usr/local/Cellar/qt5/5.8.0_1/lib/QtWidgets.framework/Headers/qtwidgetsversion.h \
+  PriorWorkExperienceTab.h TabBase.h ContactInfoTab.h WorkSkillsTab.h \
+  PersonalInfoTab.h

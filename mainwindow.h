@@ -11,6 +11,13 @@
 #include <float.h>
 #include <vector>
 
+#include "PriorWorkExperienceTab.h"
+#include "ContactInfoTab.h"
+#include "WorkSkillsTab.h"
+#include "PersonalInfoTab.h"
+
+class PriorWorkExperience;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -18,13 +25,21 @@ class MainWindow : public QMainWindow
 public:
     MainWindow();
     
+protected:
+    QHBoxLayout *mMainWindowLayout;
+    QSplitter   *mMainSplitter;
+    
 private:
     QMenuBar    *menuBar;
     QMenu       *mFileMenu;
     
     QTabWidget  *mTabList;
+    QWidget     *mCentralWidget;
     
-    
+    PriorWorkExperienceTab *mWorkExperienceTab;
+    PersonalInfoTab *mPersonalInfoTab;
+    ContactInfoTab  *mContactInfoTab;
+    WorkSkillsTab   *mWorkSkillsTab;
 
 };
 

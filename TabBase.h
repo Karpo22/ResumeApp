@@ -17,15 +17,11 @@ class MainWindow;
 class TabBase : public QWidget
 {
     
-    // Macro necessary for all classes that define signals or slots
-    Q_OBJECT
-    
 public:
                     TabBase(MainWindow *inParent);
     virtual         ~TabBase();
     
     virtual void    reset();
-    virtual void    refreshTab();
     
 protected:
     
